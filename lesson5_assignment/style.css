@@ -1,0 +1,95 @@
+@charset "UTF-8";
+/*CSS Document created by Caroline Tschida, Spring 2019*/
+
+body {
+    font-family: "Times New Roman", Times, serif; 
+    font-size: 14px;
+    line-height: 2em;
+    color: #FFFFFF;
+    background-color: #617A7F;
+    padding: 0 50px;
+}
+
+/* basic text styles ---------------------  */
+p, li, td {
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+h1{
+    font-size: 30px;
+    padding: 5px 0;
+    letter-spacing: 0.5em;
+    line-height: 2em;
+}
+h2{
+    font-size: 25px;
+    padding: 7px;
+    letter-spacing: 0.5em;
+    background-color: #91B8BF;
+}
+h3{
+    font-size: 22px;
+    letter-spacing: 0.5em;
+    border-bottom-width: 1px;
+    border-bottom-style: inset;
+    border-bottom-color: #FFFFFF;
+    padding: 5px 0;
+}
+
+/* link styles ---------------------- */
+a:link {
+    font-weight: bold;
+    color: #C1F5FF;
+    text-decoration: none;
+}
+a:visited {
+    font-weight: bold;
+    color: #C1F5FF;
+    text-decoration: none;
+}
+a:hover {
+    color: #FFFFFF;
+}
+
+/* list styles ----------------------- */ 
+ul li {
+    list-style-image: none;
+    margin-left: 12px;
+}
+ol {
+    margin-left: 12px;
+}
+
+/* table styles ---------------------- */
+table {
+    border: solid #303D40 1px;
+}
+td {
+    padding: 6px;
+    border: solid #303D40 1px;
+}
+th{
+    font-weight: bold;
+    background-color: #617A7F;
+    text-align: center;
+    padding: 6px;
+    border: #AEDCE5 1px;
+}
+
+/* border styles ---------------------- */
+hr {
+    border: solid #303D40 2px;
+}
+
+iframe{
+    border: solid #303D40 2px;
+    padding: 8px;
+    margin: 8px;
+}
+
+
+
+
+
+
+
