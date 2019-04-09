@@ -5,7 +5,7 @@ body {
     font-family: "Times New Roman", Times, serif; 
     font-size: 14px;
     line-height: 2em;
-    color: #FFFFFF;
+    color: #696969;
     background-color: #617A7F;
     padding: 0 50px;
 }
@@ -13,7 +13,7 @@ body {
 /* basic text styles ---------------------  */
 p, li, td {
     letter-spacing: 0.1em;
-    color: #FFFFFF;
+    color: #696969;
 }
 h1{
     font-size: 30px;
@@ -39,12 +39,12 @@ h3{
 /* link styles ---------------------- */
 a:link {
     font-weight: bold;
-    color: #C1F5FF;
+    color: #617A7F;
     text-decoration: none;
 }
 a:visited {
     font-weight: bold;
-    color: #C1F5FF;
+    color: #617A7F;
     text-decoration: none;
 }
 a:hover {
@@ -86,3 +86,49 @@ iframe{
     padding: 8px;
     margin: 8px;
 }
+
+/* DIV STYLES FOR PAGE LAYOUT */
+#container{
+    width: 900px; 
+	margin: 0 auto; 
+	background-color: #D3D3D3; 
+	overflow: hidden;
+}
+#header { 
+	width: 100%; 
+	background-color: #D3D3D3;
+	border-bottom: 3px solid #91B8BF;
+	padding: 25px;
+}
+#content { 
+	width: 600px;
+	float: left; 
+	padding: 25px;
+}
+#sidebar { 
+	width: 200px; 
+	float: left;
+	margin-top: 50px;
+	margin-right: 20px;
+	background: #eee;
+	border: 1px solid #91B8BF;
+	border-radius: 12px;
+	box-shadow: 10px 10px 5px #888888;
+}
+#sidebar p{
+	padding: 0;
+	float: right;
+}
+#footer { 
+	clear: both;
+	width: 100%; 
+	background-color: #D3D3D3;
+	border-top: 3px solid #91B8BF;
+}
+#footer p {
+	margin: 0;
+	padding: 40px;
+}
+    
+    
+    
